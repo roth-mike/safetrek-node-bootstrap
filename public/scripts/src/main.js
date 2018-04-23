@@ -11,7 +11,7 @@ $(function(){
   const PROXY_PORT = 3000
 
   const CALLBACK_URL =  '/callback'
-  const SAFETREK_API_URL =  'https://api-sandbox.safetrek.io/v1'
+  const SAFETREK_API_URL =  'https://api.safetrek.io/v1'
   const DEFAULT_ACCURACY =  5
   const RANDOM_ADDRESS_DATA = '/address-us-100.min.json'
 

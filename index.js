@@ -29,14 +29,14 @@ if (env.NODE_ENV !== 'production') dotenv.config()
  * Production: https://account.safetrek.io
  * Sandbox: https://account-sandbox.safetrek.io
  */
-const AUTH_URL = 'https://account-sandbox.safetrek.io'
+const AUTH_URL = 'https://account.safetrek.io'
 
 /**
  * SafeTrek OAuth token URL
  * Production: https://login.safetrek.io/oauth/token
  * Sandbox: https://login-sandbox.safetrek.io/oauth/token
  */
-const TOKEN_URL = 'https://login-sandbox.safetrek.io/oauth/token'
+const TOKEN_URL = 'https://login.safetrek.io/oauth/token'
 
 /**
  * Default Callback path (with leading slash)
